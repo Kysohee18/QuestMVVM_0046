@@ -1,6 +1,8 @@
 package com.example.pertemuan8.model
 
-import androidx.compose.ui.R
+
+import com.example.pertemuan8.R
+
 
 object DataJK {
     object DataJK {

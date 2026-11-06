@@ -13,6 +13,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.pertemuan8.model.DataJK.DataJK.JenisK
+import com.example.pertemuan8.view.FormSiswa
 import com.example.pertemuan8.view.TampilSiswa
 import com.example.pertemuan8.viewmodel.SiswaViewModel
 
@@ -59,11 +60,6 @@ fun SiswaApp(
             }
         }
     }
-}
-
-@Composable
-fun FormSiswa(pilihanJK: ERROR, onSubmitButtonClicked: () -> Unit) {
-    TODO("Not yet implemented")
 }
 
 private fun cancelAndBackToFormulir(
